@@ -3,9 +3,9 @@ import time
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(34, GPIO.OUT)    # Setup gpio ENABLE
-GPIO.setup(35, GPIO.OUT)    # Setup gpio as output O1 = positive contactor
-GPIO.setup(40, GPIO.OUT)    # Setup gpio as output O6 = negative contactor
-GPIO.setup(41, GPIO.OUT)    # Setup gpio as output O7 = precharge contactor
+GPIO.setup(35, GPIO.OUT)    # Setup gpio as output O1 = Negative contactor
+GPIO.setup(36, GPIO.OUT)    # Setup gpio as output O2 = Positive contactor
+GPIO.setup(37, GPIO.OUT)    # Setup gpio as output O3 = precharge contactor
 
 GPIO.output(34, False)      # Enable
 GPIO.output(35, False)      # Start at zero
