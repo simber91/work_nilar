@@ -30,7 +30,7 @@ except KeyboardInterrupt: # If CTRL+C is pressed, exit cleanly:
    print("Keyboard interrupt")
 
 except:
-   print("some error") 
+   print("FUCK, some error occured") 
 
 finally:
    print("clean up") 
